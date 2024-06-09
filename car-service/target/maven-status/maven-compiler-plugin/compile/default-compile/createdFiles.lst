@@ -1,0 +1,10 @@
+com\diploma\carrentalservice\dto\response\CarResponseDto.class
+com\diploma\carrentalservice\model\Car.class
+com\diploma\carrentalservice\service\CarService.class
+com\diploma\carrentalservice\dto\request\CarRequestDto.class
+com\diploma\carrentalservice\controller\CarController.class
+com\diploma\carrentalservice\CarRentalServiceApplication.class
+com\diploma\carrentalservice\model\Car$CarBuilder.class
+com\diploma\carrentalservice\dto\response\CarResponseDto$CarResponseDtoBuilder.class
+com\diploma\carrentalservice\dto\request\CarRequestDto$CarRequestDtoBuilder.class
+com\diploma\carrentalservice\repository\CarRepository.class

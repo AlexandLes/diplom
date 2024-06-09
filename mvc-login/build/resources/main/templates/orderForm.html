@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layouts/default}">
+
+<div id="page" layout:fragment="content">
+    <div class="container">
+        <div class="mt-5">
+            <div class="container">
+                <h1>Place order</h1>
+
+                <form action="#" th:action="@{/order/post}" th:object="${order}" enctype="multipart/form-data"
+                      method="POST">
+
+                    <input type="date" th:field="*{dateOfRental}" placeholder="Date of rental"
+                           class="form-control mb-4 col-4">
+                    <input type="date" th:field="*{dateOfReturn}" placeholder="Date of return"
+                           class="form-control mb-4 col-4">
+                    <input type="hidden"
+                           th:field="*{carId}" placeholder="CC"
+                           class="form-control mb-4 col-4" >
+
+                    <button type="submit" class="btn btn-info col-2">Place order</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+</html>
